@@ -7,16 +7,20 @@
     <title>Grant Writer</title>
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-
+    
+    <!-- Grant writing page CSS -->
+    <link type="text/css" rel="stylesheet" href="styles/index.css">
 </head>
 <body>
     <nav>
         <div class="amber lighten-3 nav-wrapper">
-          <a href="#!" class="brand-logo">Grant Writer</a>
+          <a href="#!" class="g-title brand-logo">Grant Writer</a>
           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
             <li><a href="sass.html">ABOUT</a></li>
@@ -25,27 +29,46 @@
             <li><a href="mobile.html">CLIENTS</a></li>
             <li><a href="mobile.html">BLOG</a></li>
             <li><a href="mobile.html">CONTACT</a></li>
-            <div class="right nav-wrapper">
-                <form>
-                  <div class="input-field">
-                    <input id="search" type="search" required>
-                    <label class="label-icon" for="search"><i class="material-icons">search</i></label>
-                    <i class="material-icons">close</i>
-                  </div>
-                </form>
-              </div>
           </ul>
-          <ul class="side-nav" id="mobile-demo">
-            <li><a href="sass.html">ABOUT</a></li>
-            <li><a href="badges.html">SERVICES</a></li>
-            <li><a href="collapsible.html">OUR PROCESS</a></li>
-            <li><a href="mobile.html">CLIENTS</a></li>
-            <li><a href="mobile.html">BLOG</a></li>
-            <li><a href="mobile.html">CONTACT</a></li>
+          <!-- About Dropdown Structure -->
+          <ul id="dropdown1" class="dropdown-content">
+                <li><a href="#!">one</a></li>
+                <li class="divider"></li>
+                <li><a href="#!">two</a></li>
+                <li class="divider"></li>
+                <li><a href="#!">three</a></li>
+          </ul>
+          <!-- Blog Dropdown Structure -->
+          <ul id="dropdown2" class="dropdown-content">
+                <li><a href="#!">one</a></li>
+                <li class="divider"></li>
+                <li><a href="#!">two</a></li>
+                <li class="divider"></li>
+                <li><a href="#!">three</a></li>
+          </ul>
+          <ul class="amber lighten-3 side-nav" id="mobile-demo">
+            <!-- Dropdown Trigger -->
+            <li class="section"><a class="dropdown-button" href="sass.html" data-activates="dropdown1">ABOUT<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li class="section"><a href="badges.html">SERVICES</a></li>
+            <li class="section"><a href="collapsible.html">OUR PROCESS</a></li>
+            <li class="section"><a href="mobile.html">CLIENTS</a></li>
+            <!-- Dropdown Trigger -->
+            <li class="section"><a class="dropdown-button" href="mobile.html"  data-activates="dropdown2">BLOG<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li class="section"><a href="mobile.html">CONTACT</a></li>
           </ul>
         </div>
-      </nav>
+    </nav>
+    <div class="parallax-container">
+        <div class="parallax"><img src="images/cartoonKids.jpeg"></div>
+        <div class="center-text">
+                <p>APPLYING FOR A GRANT?</p>
+                <h1>WE CAN HELP.</h1>
+                <p>Work with our team of dedicated experts.</p>
+                <button>SEE MORE</button>
+        </div>
+    </div>
 
+     
 
 
     <!--Import jQuery before materialize.js-->

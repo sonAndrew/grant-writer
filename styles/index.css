@@ -1,0 +1,10 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.g-title{
+    padding-left: 100px;
+}
+center-text{
+    text-align: center;
+}
