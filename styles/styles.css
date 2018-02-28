@@ -10,6 +10,11 @@ html, body{
 }
 .info{
     margin-top: 5rem;
-    padding: 25px;
+    padding: 25px 25px 0 25px;
     word-spacing: 2px !important;
+}
+.info2{
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
 }
