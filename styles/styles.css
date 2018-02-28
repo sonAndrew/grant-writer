@@ -10,4 +10,6 @@ html, body{
 }
 .info{
     margin-top: 5rem;
+    padding: 25px;
+    word-spacing: 2px !important;
 }
