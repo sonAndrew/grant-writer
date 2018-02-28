@@ -1,0 +1,13 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.g-title{
+    padding-left: 50px !important;
+}
+.links{
+    padding-right: 50px !important;
+}
+.info{
+    margin-top: 5rem;
+}

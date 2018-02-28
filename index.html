@@ -8,21 +8,19 @@
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-
-    <!-- Compiled and minified CSS -->
+    <!--Import materialize.css cdn-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     
     <!-- Grant writing page CSS -->
-    <link type="text/css" rel="stylesheet" href="styles/index.css">
+    <link type="text/css" rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
     <nav>
         <div class="amber lighten-3 nav-wrapper">
-          <a href="#!" class="g-title brand-logo">Grant Writer</a>
+          <a href="#!" class="hide-on-large-only brand-logo">Grant Writer</a>
+          <a href="#!" class="hide-on-med-and-down g-title brand-logo">Grant Writer</a>
           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-          <ul class="right hide-on-med-and-down">
+          <ul class="right hide-on-med-and-down links">
             <li><a href="sass.html">ABOUT</a></li>
             <li><a href="badges.html">SERVICES</a></li>
             <li><a href="collapsible.html">OUR PROCESS</a></li>
@@ -59,12 +57,28 @@
         </div>
     </nav>
     <div class="parallax-container">
-        <div class="parallax"><img src="images/cartoonKids.jpeg"></div>
-        <div class="center-text">
-                <p>APPLYING FOR A GRANT?</p>
-                <h1>WE CAN HELP.</h1>
-                <p>Work with our team of dedicated experts.</p>
-                <button>SEE MORE</button>
+        <div class="parallax"><img class="responsive-img" src="images/cartoonKids.jpeg"></div>
+        <div class="center amber-text darken-1">
+            <br>
+            <br>
+            <br>
+            <br>
+            <p>APPLYING FOR A GRANT?</p>
+            <h1>WE CAN HELP.</h1>
+            <p>Work with our team of dedicated experts.</p>
+            <button class="amber lighten-3 btn waves-effect">SEE MORE</button>
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax info center">
+            <div>
+                <h5>Grant Writer is a team of skilled nonprofit consultants who specialize in grant writing, program development, and grant readiness.</h5>
+            </div>
+            <br>
+            <br>
+            <div>
+                <p>As grant writers, we take seriously our role in helping your nonprofit organization fund its important work, whether you’re operating a food bank, after school program, or international medical mission. We also work with individuals, artists, and small businesses to locate and apply for grant funding.</p>
+            </div>
         </div>
     </div>
 
@@ -73,8 +87,6 @@
 
     <!--Import jQuery before materialize.js-->
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-        <script type="text/javascript" src="js/materialize.min.js"></script>
-    <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <!-- Grant writing page javascript -->
         <script type="text/javascript" src="js/index.js"></script>
