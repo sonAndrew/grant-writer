@@ -11,6 +11,14 @@ html, body{
 .img{
     border-bottom: 1px solid black !important;
 }
+.parallax-btn:hover {
+    color: white;
+    background-color: Transparent !important;
+    border: 2px solid white;
+    border-radius: 3px;
+    opacity: 1;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
 .info{
     margin-top: 5rem;
     padding: 2.5rem 1rem 2.5rem 1rem;
