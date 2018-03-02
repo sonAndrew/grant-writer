@@ -1,3 +1,6 @@
+$(document).ready(function(){
+    $('.parallax').parallax();
+  });
 // Initialize collapse button
 $(".button-collapse").sideNav();
 // Initialize collapsible (uncomment the line below if you use the dropdown variation)
@@ -46,7 +49,22 @@ $('.dropdown-button4').dropdown({
     stopPropagation: false // Stops event propagation
   }
 );
-
+// function myFunction() {
+//     document.getElementById("myDropdown").classList.toggle("show");
+// }
+// window.onclick = function(event) {
+//     if (!event.target.matches('.dropdown-button3')) {
+  
+//       var dropdowns = document.getElementsByClassName("dropdown-content");
+//       var i;
+//       for (i = 0; i < dropdowns.length; i++) {
+//         var openDropdown = dropdowns[i];
+//         if (openDropdown.classList.contains('show')) {
+//           openDropdown.classList.remove('show');
+//         }
+//       }
+//     }
+//   }
 
 $(document).ready(function(){
     $('.parallax').parallax();

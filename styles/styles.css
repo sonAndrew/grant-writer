@@ -2,14 +2,26 @@ html, body{
     margin: 0;
     padding: 0;
 }
+nav{
+    font-family: 'Karma', serif;
+}
 .g-title{
     padding-left: 50px !important;
 }
 .links{
     padding-right: 50px !important;
 }
+.parallax-container{
+    font-family: 'Karma', serif;
+    height: 50%;
+    padding-top: 5.5rem;
+    padding-bottom: 7.5rem;
+}
 .img{
     border-bottom: 1px solid black !important;
+}
+.parallax-text1{
+    font-size: 1.3rem;
 }
 .parallax-btn:hover {
     color: white;
@@ -21,20 +33,40 @@ html, body{
 }
 .info{
     margin-top: 5rem;
-    padding: 2.5rem 1rem 2.5rem 1rem;
-    word-spacing: 2px !important;
+    padding: 2rem 15rem 5rem 15rem;
     border-bottom: 1px solid black !important;
+    font-family: 'Karma', serif;
+    box-sizing: content-box;
+}
+.infoP2{
+    margin-top: 5rem;
+    padding: 2rem 5rem 5rem 5rem;
+    border-bottom: 1px solid black !important;
+    font-family: 'Karma', serif;
+    box-sizing: content-box;
 }
 .info2{
     display: flex;
     flex: wrap;
     flex-direction: column;
     padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-family: 'Karma', serif;
 }
 .info3{
     display: flex;
     padding-top: 3rem;
-    padding-right: 2rem;
+    padding-right: 5rem;
     padding-bottom: 3rem;
-    padding-left: 2rem;
+    padding-left: 5rem;
+    font-family: 'Karma', serif;
+}
+.types{
+    padding-bottom: 1.2rem;
+}
+.services{
+    padding-bottom: 1.2rem;
+}
+.resources{
+    padding-bottom: 1rem;
 }
