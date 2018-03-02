@@ -70,3 +70,13 @@ nav{
 .resources{
     padding-bottom: 1rem;
 }
+.help-with-grant-writing-section{
+    font-size: 1.2rem;
+    background-color: #DFDFDF;
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+}
+.icon{
+    font-size: 2rem !important;
+    padding-left: 1rem !important;
+}
