@@ -87,3 +87,57 @@ nav{
     margin-top: 5.5rem;
     margin-bottom: 5.5rem;
 }
+.blog-grant-writing-info-desktop{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5.5rem;
+    margin-bottom: 5.5rem;
+}
+.gw-contracts-desktop, .gw-prospect-research-desktop, .gw-federal-and-state-desktop, .gw-proofreading-and-writing-desktop, .gw-consultations-desktop, .gw-development-desktop{
+    display: flex;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+..gw-contracts-desktop{
+    padding-right: 0;
+}
+.gw-prospect-research-desktop{
+    padding-left: 1%;
+    padding-right: 5%;
+}
+.gw-federal-and-state-desktop{
+    padding-left: 0;
+}
+.gw-proofreading-and-writing-desktop{
+    padding-right: 10%;
+}
+.section-one{
+    display: flex;
+    flex-direction: row;
+    margin-right: 3.5rem;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+}
+.section-two{
+    display: flex;
+    flex-direction: row;
+    margin-right: 3.5rem;
+    margin-left: 2rem;
+}
+.gw-icon-two{
+    padding-right: 2rem;
+}
+/* .section-one{
+    margin-bottom: 2rem;
+}
+.section-two{
+    padding-left: 2rem;
+}
+.gw-icon-two{
+    padding-right: 4rem;
+}
+.section-one, .section-two{
+    display: flex;
+} */
