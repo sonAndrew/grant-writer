@@ -69,7 +69,13 @@ $('.dropdown-button4').dropdown({
 $(document).ready(function(){
     $('.parallax').parallax();
 });
-
-$(document).ready(function(){
-    $('.materialboxed').materialbox();
+$('.carousel.carousel-slider').carousel({
+    fullWidth: false,
+    duration: 200,
+    noWrap: false
+});
+$('.carousel').carousel({
+    fullWidth: false,
+    duration: 200,
+    noWrap: false
 });

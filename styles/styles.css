@@ -129,15 +129,20 @@ nav{
 .gw-icon-two{
     padding-right: 2rem;
 }
-/* .section-one{
-    margin-bottom: 2rem;
+hr{
+    width: 1.5rem;
 }
-.section-two{
-    padding-left: 2rem;
-}
-.gw-icon-two{
-    padding-right: 4rem;
-}
-.section-one, .section-two{
+.gw-percentages-desktop{
     display: flex;
-} */
+    justify-content: space-around;
+}
+.gw-client-mobile-section{
+    margin-top: 5rem;
+}
+.carousel{
+    padding: 10rem;
+}
+.gw-client-title{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
