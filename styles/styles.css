@@ -162,3 +162,23 @@ hr{
 .gw-twitter-feed{
     padding: 1rem;
 }
+.gw-footer-info-desktop{
+    display: flex;
+    padding: 1rem;
+}
+.title-footer-info-desktop{
+    padding: 3rem;
+}
+.gw-social-media-desktop{
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+}
+.gw-search-bar-desktop{
+    padding: 3rem;
+}
+.gw-sign-up-desktop{
+    padding: 3rem;
+}
+.gw-twitter-feed-desktop{
+    padding: 3rem;
+}
