@@ -137,7 +137,7 @@ hr{
     justify-content: space-around;
 }
 .gw-client-mobile-section{
-    margin-top: 5rem;
+    margin-top: 5.5rem;
 }
 .carousel{
     padding: 10rem;
@@ -145,4 +145,20 @@ hr{
 .gw-client-title{
     padding-top: 1rem;
     padding-bottom: 2rem;
+}
+.title-footer-info-mobile{
+    padding: 3rem;
+}
+.gw-social-media{
+    padding-bottom: 3.5rem;
+}
+.gw-search-bar{
+    padding-bottom: 2.5rem;
+}
+.gw-sign-up-text{
+    padding-right: 2.5em;
+    padding-left: 2.5rem;
+}
+.gw-twitter-feed{
+    padding: 1rem;
 }
