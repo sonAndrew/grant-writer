@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Grant Writer - BLOG</title>
+        <title>Grant Writer - Contact</title>
         <!--Import Google Icon, Font-->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Karma" rel="stylesheet">
@@ -16,9 +16,93 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
         
         <!-- Grant writing page CSS -->
-        <link type="text/css" rel="stylesheet" href="styles.css">
+        <link type="text/css" rel="stylesheet" href="../styles.css">
     </head>
     <body>
-        <h1>CONTACT</h1>
+        <nav>
+            <div class="amber lighten-3 nav-wrapper">
+                <a href="../index.html" class="hide-on-large-only center brand-logo">L.V.S. Consulting</a>
+                <a href="../index.html" class="hide-on-med-and-down g-title brand-logo">L.V.S. Consulting</a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+
+                <!-- Desktop About Dropdown Structure -->
+                <ul id="dropdown1" class="dropdown-content">
+                    <li><a href="#!">Team</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#!">Testimonials</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#!">FAQs</a></li>
+                </ul>
+
+                <!-- Desktop Blog Dropdown Structure -->
+                <ul id="dropdown2" class="dropdown-content">
+                    <li><a href="#!">Foundation Grants</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#!">Federal Grants</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#!">Nonprofit World</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#!">Grant Readiness</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#!">Grant Prospect Research</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#!">Grant Writing Life</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#!">Grant Writing Tips</a></li>
+                </ul>
+
+                <ul class="right hide-on-med-and-down links">
+                    <li><a class="dropdown-button1" href="./about.html" data-activates="dropdown1">ABOUT</a></li>
+                    <li><a href="./services.html">SERVICES</a></li>
+                    <li><a href="./ourProcess.html">OUR PROCESS</a></li>
+                    <li><a href="./clients.html">CLIENTS</a></li>
+                    <li><a class="dropdown-button2" href="./blog.html"  data-activates="dropdown2">BLOG</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+
+                <!-- Mobile About Dropdown Structure -->
+                <ul id="dropdown3" class="dropdown-content">
+                        <li><a href="#!">Team</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#!">Testimonials</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#!">FAQs</a></li>
+                </ul>
+
+                <!-- Mobile Blog Dropdown Structure -->
+                <ul id="dropdown4" class="dropdown-content">
+                        <li><a href="#!">Foundation Grants</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#!">Federal Grants</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#!">Nonprofit World</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#!">Grant Readiness</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#!">Grant Prospect Research</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#!">Grant Writing Life</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#!">Grant Writing Tips</a></li>
+                </ul>
+                <ul class="amber lighten-3 side-nav" id="mobile-demo">
+                    <!-- Dropdown Trigger -->
+                    <li class="section"><a class="dropdown-button3" href="./about.html" data-activates="dropdown3">ABOUT<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li class="section"><a href="./services.html">SERVICES</a></li>
+                    <li class="section"><a href="./ourProcess.html">OUR PROCESS</a></li>
+                    <li class="section"><a href="./clients.html">CLIENTS</a></li>
+                    <!-- Dropdown Trigger -->
+                    <li class="section"><a class="dropdown-button4" href="./blog.html"  data-activates="dropdown4">BLOG<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li class="section"><a href="./contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+        <!-- Grant writing page javascript -->
+        <script type="text/javascript" src="./js/contact.js"></script>
     </body>
 </html>
