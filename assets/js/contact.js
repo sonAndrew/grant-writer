@@ -50,3 +50,7 @@ $('.dropdown-button4').dropdown({
   stopPropagation: false // Stops event propagation
 }
 );
+
+$(document).ready(function() {
+  $('select').material_select();
+});

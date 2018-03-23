@@ -105,7 +105,7 @@
             <h1>Contact Us</h1>
         </div>
 
-        <div class="contact">
+        <div class="contact-body">
             <div class="contact-header center">
                 <h3 class="cyan-text">Reach Us</h3>
                 <p>If you'd like to learn more about our services or discuss how we might work together, 
@@ -114,8 +114,79 @@
                     organization as well as the type of help you're looking for.
                 </p>
             </div>
-            <div class="contact-form">
-                <div class="email"><i class="material-icons">contact_mail</i><p>E-mail</p></div>
+            <div class="contact-contacts">
+                <div class="contact-email center"><i class="material-icons">contact_mail</i><p>E-mail :</p> <a href="lsv.consulting@gmail.com">lsv.consulting@gmail.com</a></div>
+                <div class="contact-social">
+                    <div class="social-icon"><i class="material-icons">face</i><p>Social :</p></div>
+                    <div class="social">
+                        <a class="waves-effect waves-light btn-floating social facebook cyan"><i class="fa fa-facebook"></i>Sign in with facebook</a>
+                        <a class="waves-effect waves-light btn-floating social twitter cyan"><i class="fa fa-twitter"></i> Sign in with twitter</a>
+                        <a class="waves-effect waves-light btn-floating social linkedin cyan"><i class="fa fa-linkedin"></i> Sign in with linkedin</a>
+                        <a class="waves-effect waves-light btn-floating social google cyan"><i class="fa fa-google"></i> Sign in with google</a>
+                        <a class="waves-effect waves-light btn-floating social pinterest cyan"><i class="fa fa-pinterest"></i> Sign in with pinterest</a>
+                    </div>
+                </div>
+                <div class="contact-form row">
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <input placeholder="required" id="first_name" type="text" class="validate">
+                                <label for="first_name">First Name</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <input placeholder="required" id="last_name" type="text" class="validate">
+                                <label for="last_name">Last Name</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="email" type="email" class="validate">
+                                <label for="email">Email</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="email" type="text" class="validate">
+                                <label for="email">Subject</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="email" type="text" class="validate">
+                                <label for="email">Organization Name</label>
+                            </div>
+                        </div>
+                        <div class="input-field col s12">
+                            <select>
+                                <optgroup label="How did you hear about us?">
+                                    <option value="1">Choose a option</option>
+                                </optgroup>
+                                <optgroup label="Search engines">
+                                    <option value="2">Yahoo search</option>
+                                    <option value="3">Bing search</option>
+                                    <option value="4">Google search</option>
+                                </optgroup>
+                                <optgroup label="Social media">
+                                    <option value="5">Twitter</option>
+                                    <option value="6">Facebook</option>
+                                    <option value="7">Linkedin</option>
+                                    <option value="8">Google+</option>
+                                    <option value="9">Other</option>
+                                </optgroup>
+                            </select>
+                            <label>How did you hear about us?</label>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                                <label for="icon_prefix2">Leave a message</label>
+                            </div>
+                        </div>
+                        <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </form>
+                </div>
             </div>
 
         </div>

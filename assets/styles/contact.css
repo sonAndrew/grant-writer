@@ -9,6 +9,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.contact-body{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 .contact-header{
     padding: 5%;
     border-bottom: 1px solid black;
@@ -19,4 +23,32 @@
     padding-left: 13%;
     font-size: 1.3rem;
     padding-bottom: 5%;
+}
+.contact-contacts{
+    padding-top: 7%;
+}
+.contact-email{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 1rem;
+}
+.contact-email > p, .contact-email > a, .social-icon > p{
+    margin: 5px;
+    padding: 1px;
+}
+.contact-social{
+    display: flex;
+    margin-left: 5%;
+}
+.social-icon{
+    display: flex;
+    padding: 2%;
+}
+.social{
+    padding-top: 1.5%;
+}
+.contact-form{
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
