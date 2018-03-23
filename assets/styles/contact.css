@@ -1,0 +1,22 @@
+.contact-img{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.contact-img > h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.contact-header{
+    padding: 5%;
+    border-bottom: 1px solid black;
+}
+.contact-header > p{
+    padding-top: 3%;
+    padding-right: 13%;
+    padding-left: 13%;
+    font-size: 1.3rem;
+    padding-bottom: 5%;
+}
